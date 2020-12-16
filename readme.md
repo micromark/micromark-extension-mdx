@@ -15,7 +15,8 @@ This package provides the low-level modules for integrating with the micromark
 tokenizer but has no handling of compiling to HTML: go to a syntax tree instead.
 
 You probably should use this package with [`mdast-util-mdx`][mdast-util-mdx]
-(**[mdast][]**) or alternatively use both through `remark-mdx` (**[remark][]**).
+(**[mdast][]**) or alternatively use both through [`remark-mdx`][remark-mdx]
+(**[remark][]**).
 
 The extensions can be used separately:
 
@@ -133,3 +134,5 @@ abide by its terms.
 [mdx-md]: https://github.com/micromark/micromark-extension-mdx-md
 
 [mdast-util-mdx]: https://github.com/syntax-tree/mdast-util-mdx
+
+[remark-mdx]: https://github.com/mdx-js/mdx/tree/next/packages/remark-mdx
