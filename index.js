@@ -1,10 +1,8 @@
-var combine = require('micromark/dist/util/combine-extensions')
-var expression = require('micromark-extension-mdx-expression')
-var jsx = require('micromark-extension-mdx-jsx')
-var md = require('micromark-extension-mdx-md')
+import {combineExtensions} from 'micromark-util-combine-extensions'
+import expression from 'micromark-extension-mdx-expression'
+import jsx from 'micromark-extension-mdx-jsx'
+import md from 'micromark-extension-mdx-md'
 
-module.exports = create
-
-function create() {
-  return combine([expression(), jsx(), md])
+export function mdx() {
+  return combineExtensions([expression(), jsx(), md])
 }
