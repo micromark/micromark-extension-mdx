@@ -16,5 +16,5 @@ import {combineExtensions} from 'micromark-util-combine-extensions'
  *   syntax, unaware of JavaScript.
  */
 export function mdx() {
-  return combineExtensions([mdxExpression(), mdxJsx(), mdxMd])
+  return combineExtensions([mdxExpression(), mdxJsx(), mdxMd()])
 }
