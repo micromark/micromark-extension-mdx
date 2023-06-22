@@ -154,12 +154,15 @@ It exports no additional types.
 
 ## Compatibility
 
-Projects maintained by the unified collective are compatible with all maintained
+Projects maintained by the unified collective are compatible with maintained
 versions of Node.js.
-As of now, that is Node.js 16+.
-Our projects sometimes work with older versions, but this is not guaranteed.
 
-These extensions work with `micromark` version 3+.
+When we cut a new major release, we drop support for unmaintained versions of
+Node.
+This means we try to keep the current release line,
+`micromark-extension-mdx@^1`, compatible with Node.js 12.
+
+This package works with `micromark` version `3` and later.
 
 ## Security
 
@@ -202,9 +205,9 @@ abide by its terms.
 
 [downloads]: https://www.npmjs.com/package/micromark-extension-mdx
 
-[size-badge]: https://img.shields.io/bundlephobia/minzip/micromark-extension-mdx.svg
+[size-badge]: https://img.shields.io/badge/dynamic/json?label=minzipped%20size&query=$.size.compressedSize&url=https://deno.bundlejs.com/?q=micromark-extension-mdx
 
-[size]: https://bundlephobia.com/result?p=micromark-extension-mdx
+[size]: https://bundlejs.com/?q=micromark-extension-mdx
 
 [sponsors-badge]: https://opencollective.com/unified/sponsors/badge.svg
 
