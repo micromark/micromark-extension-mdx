@@ -30,8 +30,8 @@
     "index.js"
   ],
   "dependencies": {
-    "micromark-extension-mdx-expression": "^2.0.0",
-    "micromark-extension-mdx-jsx": "^2.0.0",
+    "micromark-extension-mdx-expression": "^3.0.0",
+    "micromark-extension-mdx-jsx": "^3.0.0",
     "micromark-extension-mdx-md": "^2.0.0",
     "micromark-util-combine-extensions": "^2.0.0",
     "micromark-util-types": "^2.0.0"
